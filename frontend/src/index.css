@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Icon Styles */
+.fa-pencil,
+.fa-trash {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.fa-pencil:hover {
+  color: #0056b3;
+}
+
+.fa-trash:hover {
+  color: #d9534f;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modal-title {
+  margin-bottom: 20px;
+}
+
+.modal-body .form-control {
+  margin-bottom: 10px;
+}

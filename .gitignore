@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled files
+*.log
+*.log.*
+*.zip
+*.gz
+*.tar.gz
+*.tgz
+*.rar
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.egg
+*.egg-info
+*.egg-info/
+*.dist-info/
+*.dist-info
+*.out
+*.min.*
+*.map
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tmp
+*.bak
+*.cache
+*.log
+*.vs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
